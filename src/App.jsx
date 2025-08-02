@@ -1,19 +1,18 @@
-import './App.css';
-import Hero from './components/Hero';
+import Hero from './components/sections/Hero';
 import Navbar from './components/Navbar';
-import PopularProduct from './components/PopularProduct';
-import SuperQuality from './components/SuperQuality';
-import Services from './components/Services';
-import SpecialOffers from './components/SpecialOffers';
-import CustomerReviews from './components/CustomerReviews';
-import Subscribe from './components/Subscribe';
+import PopularProduct from './components/sections/PopularProduct';
+import SuperQuality from './components/sections/SuperQuality';
+import Services from './components/sections/Services';
+import SpecialOffers from './components/sections/SpecialOffers';
+import CustomerReviews from './components/sections/CustomerReviews';
+import Subscribe from './components/sections/Subscribe';
 import Footer from './components/Footer';
 
 const App = () => {
   return (
     <main className="relative">
       <Navbar />
-      <section className="xl:padding-1 wide:padding-r padding-b">
+      <section className="xl:padding-1 wide:padding-r padding padding-b">
         <Hero />
       </section>
       <section className="padding">

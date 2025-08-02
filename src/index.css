@@ -2,26 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 @import 'tailwindcss';
 
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
 @theme {
   /* custom fonts */
   --font-palanquin: 'Palanquin', sans-serif;
   --font-montserrat: 'Montserrat', sans-serif;
 
   /* custom font sizes */
-  --text-xs: [ '12px', '16px'];
-  --text-sm: [ '14px', '20px'];
-  --text-base: [ '16px', '19.5px'];
-  --text-lg: [ '18px', '21.94px'];
-  --text-xl: [ '20px', '24.38px'];
-  --text-2xl: [ '24px', '29.26px'];
-  --text-3xl: [ '28px', '50px'];
-  --text-4xl: [ '48px', '58px'];
-  --text-8xl: [ '96px', '106px'];
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 28px;
+  --text-4xl: 48px;
+  --text-8xl: 96px;
 
   /* custom colors */
   --color-primary: #eceeff;
