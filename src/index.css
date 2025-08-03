@@ -8,7 +8,7 @@
   --font-montserrat: 'Montserrat', sans-serif;
 
   /* custom font sizes */
-  --text-xs: 12px;
+  /* --text-xs: 12px;
   --text-sm: 14px;
   --text-base: 16px;
   --text-lg: 18px;
@@ -16,7 +16,7 @@
   --text-2xl: 24px;
   --text-3xl: 28px;
   --text-4xl: 48px;
-  --text-8xl: 96px;
+  --text-8xl: 96px; */
 
   /* custom colors */
   --color-primary: #eceeff;
@@ -27,10 +27,6 @@
 
   /* custom shadows */
   --shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
-
-  /* background images */
-  --background-hero: url('assets/images/collection-background.svg');
-  --background-card: url('assets/images/thumbnail-background.svg');
 
   /* custom breakpoints */
   --breakpoint-wide: 1440px;
