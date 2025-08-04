@@ -6,4 +6,4 @@ I might add animations in the future.
 
 If you wanna look at it, simply clone the repo or download it and run the command :
 
-# npm run dev
+ npm run dev
