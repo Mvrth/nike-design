@@ -1,7 +1,7 @@
 import ReviewCard from '../ReviewCard';
 import { reviews } from '../constants';
 
-CustomerReviews = () => {
+const CustomerReviews = () => {
   return (
     <section className="max-container">
       <h3 className="font-palanquin text-center text-4xl font-bold">
